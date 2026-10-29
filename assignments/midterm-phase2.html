@@ -1,82 +1,133 @@
-Student E-Portfolio Website Planning Document
-Name: Christopher Munford
-Course: CIS 207 - WCCS, Fall 2026
-Assignment: Midterm Project, Phase 2 - Planning Your Student E-Portfolio Website
-Date: October 23, 2026
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midterm Project, Phase 2: Student E-Portfolio Website Planning</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; max-width: 800px; margin: 0 auto; padding: 1.5rem; line-height: 1.6; color: #333; }
+    h1, h2, h3 { color: #1F3A5F; }
+    a { color: #2A9D8F; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 1rem; }
+    th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
+    th { background: #F2F4F7; }
+    footer { margin-top: 2rem; border-top: 1px solid #ccc; padding-top: 0.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Student E-Portfolio Website Planning Document</h1>
+    <p>Name: Christopher Munford<br>
+    Course: CIS 207 - WCCS, Fall 2026<br>
+    Assignment: Midterm Project, Phase 2 - Planning Your Student E-Portfolio Website<br>
+    Date: October 23, 2026</p>
+  </header>
+  <main>
+    <section>
+      <h2>Deliverable 1: Website Purpose</h2>
+      <p>I want everything I do (school, projects, work experience) in one place online instead of scattered across folders and flash drives. I want a clean, simple website that makes it easy to find out what I do.</p>
+      <p>I want visitors to walk away thinking I'm reliable, I keep learning, and I can apply what I learn in real-world situations. I also want to chart my progress from class to class and give employers a quick, straightforward way to review my background.</p>
+      <p>I will emphasize my HTML/CSS work, early programming practice, and what I've learned about hardware and troubleshooting, along with real-world skills like communication, teamwork, and being on time.</p>
+    </section>
 
-Deliverable 1: Website Purpose
-I want everything I do (school, projects, work experience) in one place online instead of scattered across folders and flash drives. I want a clean, simple website that makes it easy to find out what I do.
+    <section>
+      <h2>Deliverable 2: Target Audience</h2>
+      <p>My visitors will be employers and recruiters hiring for entry-level tech support and help desk positions, plus instructors and college staff monitoring my progress.</p>
+      <p>Most visitors want the quick version: education, skills, examples, and contact info. When they leave, I want them to think I'm organized, serious about the field, and worth training.</p>
+    </section>
 
-I want visitors to walk away thinking I'm reliable, I keep learning, and I can apply what I learn in real-world situations. I also want to chart my progress from class to class and give employers a quick, straightforward way to review my background.
+    <section>
+      <h2>Deliverable 3: Website Content Outline</h2>
+      <h3>1. Home Page - index.html</h3>
+      <ul>
+        <li>My name, front and center</li>
+        <li>A short tagline: "IT student gaining skills for a career in the tech field."</li>
+        <li>A brief paragraph on what I'm studying and where I hope to go</li>
+        <li>A call to explore the site</li>
+        <li>A professional photo or a techy abstract image</li>
+        <li>A navigation bar linking to all pages</li>
+      </ul>
+      <h3>2. About Me Page - about.html</h3>
+      <ul>
+        <li>The background story behind my resume</li>
+        <li>My WCCS program and the most relevant classes, including CIS</li>
+        <li>Academic goals: finish my degree and improve at programming and web development</li>
+        <li>Career goals: get an entry-level job, then grow from there</li>
+        <li>Interests: hardware, how things work, troubleshooting, learning new skills</li>
+        <li>A few paragraphs of biography in my own words</li>
+      </ul>
+      <h3>3. Skills Page - skills.html</h3>
+      <ul>
+        <li>Technical skills: HTML/CSS, MS Office, computer hardware, beginner Git/GitHub, introductory C++</li>
+        <li>Professional skills: communication, teamwork, punctuality, problem solving, adaptability</li>
+        <li>Each skill marked Beginner, Developing, or Proficient, with no exaggeration</li>
+      </ul>
+      <h3>4. Projects Page - projects.html</h3>
+      <ul>
+        <li>Student E-Portfolio Website: six pages in HTML and CSS (layout, structure, navigation, styling, responsive design), with a screenshot and live link</li>
+        <li>C++ Console Program: loops, variables, logic, debugging, with a screenshot of the output and a link to the code</li>
+        <li>Hardware / Troubleshooting Guide: a problem I diagnosed and solved (technical writing, problem solving, hardware knowledge), with a photo or diagram and a link to the file</li>
+        <li>Each listing includes a name, brief description, tools, skills demonstrated, a photo or screenshot, and a link if relevant</li>
+      </ul>
+      <h3>5. Resume Page - resume.html</h3>
+      <ul>
+        <li>A web version of my resume</li>
+        <li>Education, with school and expected graduation date</li>
+        <li>Work experience, emphasizing reliability, safety, and teamwork</li>
+        <li>Technical and professional skills (condensed)</li>
+        <li>Certifications, awards, and accomplishments, if applicable</li>
+        <li>A link to the PDF version</li>
+      </ul>
+      <h3>6. Contact Page - contact.html</h3>
+      <ul>
+        <li>A professional email address, a GitHub link, and a LinkedIn link if I use it</li>
+        <li>A contact form, to be added in a later phase</li>
+        <li>No home address, phone number, passwords, or ID numbers</li>
+      </ul>
+    </section>
 
-I will emphasize my HTML/CSS work, early programming practice, and what I've learned about hardware and troubleshooting, along with real-world skills like communication, teamwork, and being on time.
+    <section>
+      <h2>Deliverable 4: Visual Sitemap</h2>
+      <p>The Home page (index.html) is the entry page. From the top menu, visitors can reach About, Skills, Projects, Resume, and Contact, and every page links to every other page through the same menu.</p>
+      <ul>
+        <li>HOME - index.html
+          <ul>
+            <li>ABOUT ME - about.html</li>
+            <li>SKILLS - skills.html</li>
+            <li>PROJECTS - projects.html</li>
+            <li>RESUME - resume.html</li>
+            <li>CONTACT - contact.html</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
 
-Deliverable 2: Target Audience
-My visitors will be employers and recruiters hiring for entry-level tech support and help desk positions, plus instructors and college staff monitoring my progress.
-
-Most visitors want the quick version: education, skills, examples, and contact info. When they leave, I want them to think I'm organized, serious about the field, and worth training.
-
-Deliverable 3: Website Content Outline
-1. Home Page - index.html
-My name, front and center
-A short tagline: "IT student gaining skills for a career in the tech field."
-A brief paragraph on what I'm studying and where I hope to go
-A call to explore the site
-A professional photo or a techy abstract image
-A navigation bar linking to all pages
-2. About Me Page - about.html
-The background story behind my resume
-My WCCS program and the most relevant classes, including CIS
-Academic goals: finish my degree and improve at programming and web development
-Career goals: get an entry-level job, then grow from there
-Interests: hardware, how things work, troubleshooting, learning new skills
-A few paragraphs of biography in my own words
-3. Skills Page - skills.html
-Technical skills: HTML/CSS, MS Office, computer hardware, beginner Git/GitHub, introductory C++
-Professional skills: communication, teamwork, punctuality, problem solving, adaptability
-Each skill marked Beginner, Developing, or Proficient, with no exaggeration
-4. Projects Page - projects.html
-Student E-Portfolio Website: six pages in HTML and CSS (layout, structure, navigation, styling, responsive design), with a screenshot and live link
-C++ Console Program: loops, variables, logic, debugging, with a screenshot of the output and a link to the code
-Hardware / Troubleshooting Guide: a problem I diagnosed and solved (technical writing, problem solving, hardware knowledge), with a photo or diagram and a link to the file
-Each listing includes a name, brief description, tools, skills demonstrated, a photo or screenshot, and a link if relevant
-5. Resume Page - resume.html
-A web version of my resume
-Education, with school and expected graduation date
-Work experience, emphasizing reliability, safety, and teamwork
-Technical and professional skills (condensed)
-Certifications, awards, and accomplishments, if applicable
-A link to the PDF version
-6. Contact Page - contact.html
-A professional email address, a GitHub link, and a LinkedIn link if I use it
-A contact form, to be added in a later phase
-No home address, phone number, passwords, or ID numbers
-Deliverable 4: Visual Sitemap
-The Home page (index.html) is the entry page. From the top menu, visitors can reach About, Skills, Projects, Resume, and Contact, and every page links to every other page through the same menu.
-
-HOME - index.html
-ABOUT ME - about.html
-SKILLS - skills.html
-PROJECTS - projects.html
-RESUME - resume.html
-CONTACT - contact.html
-Deliverable 5: Visual Design Plan
-A. Color Palette
-Color	HEX	Planned Use
-Navy Blue	#1F3A5F	Header, navigation bar, headings
-Teal	#2A9D8F	Accent for links, buttons, hover effects
-White	#FFFFFF	Main page background
-Dark Gray	#333333	Body text
-Light Gray	#F2F4F7	Alternating section backgrounds and cards
-B. Typography
-Element	Font	Reason
-Main headings	Montserrat Bold (fallback: Arial, sans-serif)	Bold and easy to read at large sizes
-Subheadings	Montserrat SemiBold (fallback: Arial, sans-serif)	Matches the headings for consistency
-Body text	Open Sans Regular (fallback: Verdana, sans-serif)	Clean and easy to read on screen
-C. Layout Style
-Simple, flat, and modern, with a consistent navigation menu at the top of every page. Content is divided into clear sections with adequate spacing, and the same colors, fonts, navigation, header, and footer are used throughout. Readability and accessibility are my main concerns.
-
-D. Overall Theme
-Professional | Modern | Clean | Technology-Focused | Accessible
-
-Back to Assignment Gallery
+    <section>
+      <h2>Deliverable 5: Visual Design Plan</h2>
+      <h3>A. Color Palette</h3>
+      <table>
+        <tr><th>Color</th><th>HEX</th><th>Planned Use</th></tr>
+        <tr><td>Navy Blue</td><td>#1F3A5F</td><td>Header, navigation bar, headings</td></tr>
+        <tr><td>Teal</td><td>#2A9D8F</td><td>Accent for links, buttons, hover effects</td></tr>
+        <tr><td>White</td><td>#FFFFFF</td><td>Main page background</td></tr>
+        <tr><td>Dark Gray</td><td>#333333</td><td>Body text</td></tr>
+        <tr><td>Light Gray</td><td>#F2F4F7</td><td>Alternating section backgrounds and cards</td></tr>
+      </table>
+      <h3>B. Typography</h3>
+      <table>
+        <tr><th>Element</th><th>Font</th><th>Reason</th></tr>
+        <tr><td>Main headings</td><td>Montserrat Bold (fallback: Arial, sans-serif)</td><td>Bold and easy to read at large sizes</td></tr>
+        <tr><td>Subheadings</td><td>Montserrat SemiBold (fallback: Arial, sans-serif)</td><td>Matches the headings for consistency</td></tr>
+        <tr><td>Body text</td><td>Open Sans Regular (fallback: Verdana, sans-serif)</td><td>Clean and easy to read on screen</td></tr>
+      </table>
+      <h3>C. Layout Style</h3>
+      <p>Simple, flat, and modern, with a consistent navigation menu at the top of every page. Content is divided into clear sections with adequate spacing, and the same colors, fonts, navigation, header, and footer are used throughout. Readability and accessibility are my main concerns.</p>
+      <h3>D. Overall Theme</h3>
+      <p>Professional | Modern | Clean | Technology-Focused | Accessible</p>
+    </section>
+  </main>
+  <footer>
+    <p><a href="../index.html">Back to Assignment Gallery</a></p>
+  </footer>
+</body>
+</html>
